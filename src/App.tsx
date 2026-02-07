@@ -66,6 +66,7 @@ export function App() {
         </div>
         <div className="gift-card__card gift-card__card--yes">
           <h1 className="gift-card__title">Ураааа! 🥰</h1>
+
           <p className="gift-card__subtitle">Я тебе дуже люблю 💕</p>
           <p className="gift-card__subtitle gift-card__subtitle--small">Приходь дивитись серіал! 🍿</p>
         </div>
