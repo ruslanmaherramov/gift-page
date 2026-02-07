@@ -49,6 +49,11 @@
     color: #e91e63;
     margin-top: 8px;
     margin-bottom: 8px;
+
+    &--small {
+      font-size: 1.1rem;
+      margin-top: 2px;
+    }
   }
 
   &__hint {

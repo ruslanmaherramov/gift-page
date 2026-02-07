@@ -67,7 +67,7 @@ export function App() {
         <div className="gift-card__card gift-card__card--yes">
           <h1 className="gift-card__title">Ураааа! 🥰</h1>
           <p className="gift-card__subtitle">Я тебе дуже люблю 💕</p>
-          <p className="gift-card__subtitle">Приходь дивитись серіал!</p>
+          <p className="gift-card__subtitle gift-card__subtitle--small">Приходь дивитись серіал! 🍿</p>
         </div>
       </div>
     );
@@ -78,7 +78,7 @@ export function App() {
       <h1 className="gift-card__heading">Олічка, привіт! Це листівка вибачення:</h1>
       <div className="gift-card__card">
         <p className="gift-card__title">Будемо миритись? 💖</p>
-        <p className="gift-card__hint">(хехе попробуй натиснути 'Ні')</p>
+        <p className="gift-card__hint">(хехе спробуй натиснути Ні)</p>
         <div className="gift-card__buttons">
           <button className="gift-card__btn gift-card__btn--yes" onClick={handleYes}>
             Так
